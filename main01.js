@@ -27,7 +27,7 @@ function calcular() {
 
     let contConta = conta.length;
     
-    let n2 = conta.substring( contConta-contVisor, contConta);
+    let n2 = conta.substring( 3, contConta);
 
     document.getElementById('visor').innerHTML = n2;
 }
